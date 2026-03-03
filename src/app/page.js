@@ -143,7 +143,7 @@ export default function Home() {
           Support
         </h2>
         <p className="text-lg mb-8">
-         Need more information or have other questions? send me an email at mailpaullazarus.com 
+         Need more information or have other questions? send me an email at paullazarusviolin.com 
         </p>
         <a 
           href="mailto:mailpaullazarus@gmail.com"
