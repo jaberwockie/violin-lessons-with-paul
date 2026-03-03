@@ -83,11 +83,11 @@ export default function Home() {
     </h2>
 
     <p className="text-lg text-[#4a4642] mb-8">
-      These lessons are designed for teens and adults who are serious about learning the violin. Ideally, you would commit to weekly lessons in addition to daily practice at home. To put it simply, my lessons are ideal if:
+      These lessons are designed for teens and adults who are serious about learning the violin. Ideally, you would commit to weekly lessons in addition to daily practice at home. To put it simply, my lessons are ideal if you are:
     </p>
 
     <ul className="text-lg text-left list-disc list-outside space-y-4 text-[#4a4642] max-w-2xl mx-auto">
-      <li>Are a complete beginner</li>
+      <li>A complete beginner</li>
       <li>Have a few years of experience</li>
       <li>Switching from Carnatic/Hindustani to Western Classical/Western Contemporary</li>
       <li>Need more structure in your violin journey</li>
