@@ -8,7 +8,6 @@ export default function Home() {
           Violin Lessons With Paul
         </h1>
         <p className="text-xl md:text-2xl max-w-2xl mb-8 text-gray-600">
-          Online violin lessons for teens and adults.
         Build a strong classical foundation or learn to play the music you love.
         </p>
         <a 
@@ -145,7 +144,7 @@ export default function Home() {
           Support
         </h2>
         <p className="text-lg mb-8">
-         Need more information or have other questions? send me an email at paullazarusviolin.com 
+         Need more information or have other questions? send me an email at contact@paullazarusviolin.com 
         </p>
         <a 
           href="mailto:mailpaullazarus@gmail.com"
