@@ -4,19 +4,22 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
-        <h1 className="text-5xl md:text-6xl font-serif mb-6 tracking-tight">
-          Violin Lessons With Paul
-        </h1>
-        <p className="text-xl md:text-2xl max-w-2xl mb-8 text-gray-600">
-        Build a strong classical foundation or learn to play the music you love.
-        </p>
-        <a 
-          href="https://wa.me/919962448276"
-          className="bg-[#c6a75e] text-white px-8 py-3 rounded-md text-lg hover:opacity-90 transition"
-        >
-          Book Your Trial Lesson Now, Completely Free
-        </a>
-      </section>
+  <h1 className="text-5xl md:text-6xl font-serif mb-6 tracking-tight">
+    Violin Lessons With Paul
+  </h1>
+  <p className="text-xl md:text-2xl max-w-2xl mb-8 text-gray-600">
+    Build a strong classical foundation and learn to play the music you love.
+  </p>
+
+  {/* Book Trial Lesson Button */}
+  <a
+    href="https://wa.me/919962448276"
+    className="bg-[#c6a75e] text-white px-8 py-3 rounded-md text-lg hover:opacity-90 transition mb-4"
+  >
+    Book Your Trial Lesson Now, Completely Free
+  </a>
+
+</section>
 
       {/* About Section */}
 <section className="py-24 px-6 bg-white">
@@ -146,12 +149,7 @@ export default function Home() {
         <p className="text-lg mb-8">
          Need more information or have other questions? send me an email at contact@paullazarusviolin.com 
         </p>
-        <a 
-          href="mailto:mailpaullazarus@gmail.com"
-          className="border border-[#c6a75e] text-[#c6a75e] px-8 py-3 rounded-md text-lg hover:bg-[#c6a75e] hover:text-white transition"
-        >
-          Contact via Email
-        </a>
+     
       </section>
 
     </main>
