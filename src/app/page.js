@@ -8,7 +8,7 @@ export default function Home() {
           Violin Lessons With Paul
         </h1>
         <p className="text-xl md:text-2xl max-w-2xl mb-8 text-gray-600">
-          Online violin lessons for students 13 and above.
+          Online violin lessons for teens and adults.
         Build a strong classical foundation or learn to play the music you love.
         </p>
         <a 
@@ -55,7 +55,7 @@ export default function Home() {
         <p>
          Although I have a master's degree in psychology and worked
           in mental health, my love for the violin and music eventually
-           led me to switch careers to become a full-time violinist,
+           led me to switch careers and become a full-time violinist,
             freelance composer, and writer. 
         </p>
 
@@ -63,9 +63,8 @@ export default function Home() {
           I’ve performed at private events, weddings, and
            charity concerts, but what motivates me the most
             is <em>planting new strings.</em> For me, there’s nothing more
-             fulfilling than watching motivated students move
-              from one breakthrough to another in their violin 
-              journeys.
+             fulfilling than watching motivated violin students move
+              from one breakthrough to another.
 
 
         </p>
@@ -83,7 +82,10 @@ export default function Home() {
     </h2>
 
     <p className="text-lg text-[#4a4642] mb-8">
-      These lessons are designed for teens and adults who are serious about learning the violin. Ideally, you would commit to weekly lessons in addition to daily practice at home. To put it simply, my lessons are ideal if you are:
+      My lessons are designed for teens and adults who are serious about learning the violin. 
+      Ideally, you would commit to weekly lessons in addition to 
+      daily practice at home. To put it simply, 
+      my lessons are ideal if you are either:
     </p>
 
     <ul className="text-lg text-left list-disc list-outside space-y-4 text-[#4a4642] max-w-2xl mx-auto">
@@ -102,7 +104,7 @@ export default function Home() {
       What You’ll Learn
     </h2>
 <p className="text-lg text-[#4a4642] mb-8">
-      Each student deserves a customized progression plan but here are some universal elements that you can expect:
+      Each student gets a customized progression plan but here are some universal elements that all students will be learning:
     </p>
     <ul className="text-lg text-left list-disc list-outside space-y-4 text-[#4a4642] max-w-2xl mx-auto">
       <li>Proper bowing and posture technique</li>
@@ -117,11 +119,11 @@ export default function Home() {
       {/* Online Setup */}
       <section className="py-20 px-6 bg-[#f7f3ed]">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-serif mb-6">How Online Lessons Work</h2>
+          <h2 className="text-3xl font-serif mb-6">How My Online Lessons Work</h2>
          <div className="text-lg leading-relaxed space-y-6">
   <p>
- Lessons are 45 Minutes long and are conducted on Google Meet. Once you contact me,
-  we’ll set a mutually convenient time and date. I will share the Google Meet link,
+ Lessons are 45 Minutes long and conducted via Google Meet. Once you contact me,
+  we’ll decide on a mutually convenient time and date. I will share the Google Meet link,
    which you can bookmark and visit for each lesson. Virtual lessons do have some limitations, so it would be best if you could:
   </p>
 
