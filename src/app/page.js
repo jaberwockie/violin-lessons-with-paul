@@ -31,8 +31,7 @@ export default function Home() {
       My lessons are for teens and adults who are passionate about music and feel drawn to the violin. Ideally, you would recognize that learning this instrument is a serious commitment and would involve regular practise at home.
     </p>
       <p className="text-lg text-[#4a4642] mb-8 max-w-2xl mx-auto">
-      This is why I generally avoid teaching younger children. Many parents often force kids into lessons and it rarely works out in the long run. The violin really clicks with learners who are motivated and willing to 
-      push through even the 'boring' moments of practise. 
+      This is why I generally avoid teaching younger children. Many parents often force kids into lessons and it rarely works out in the long run.
       
     </p> <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
       My lessons will suit you well if you are either:
