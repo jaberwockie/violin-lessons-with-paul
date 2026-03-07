@@ -28,11 +28,11 @@ export default function Home() {
     </h2>
 
     <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
-      My lessons are for teens and adults who are passionate about music and feel drawn to the violin. Ideally, you would recognize that the violin is a serious commitment and would require regular practise at home.
+      My lessons are for teens and adults who are passionate about music and feel drawn to the violin. Ideally, you would recognize that learning this instrument is a serious commitment and would involve regular practise at home.
     </p>
       <p className="text-lg text-[#4a4642] mb-8 max-w-2xl mx-auto">
-      This is why I generally avoid teaching younger children. Many parents often force their kids into lessons and it rarely works out in the long run. The violin is an instrument that suits learners who are highly motivated and willing to 
-      push through the 'boring' moments of prastice. 
+      This is why I generally avoid teaching younger children. Many parents often force kids into lessons and it rarely works out in the long run. The violin really clicks with learners who are motivated and willing to 
+      push through even the 'boring' moments of practise. 
       
     </p> <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
       My lessons will suit you well if you are either:
@@ -78,7 +78,7 @@ export default function Home() {
       <section className="py-20 px-6 bg-[#f8f6f2]">
   <div className="max-w-4xl mx-auto">
     <h2 className="text-3xl font-serif mb-10 text-center">
-      Online Lessons
+      How My Online Lessons Work
     </h2>
 
     <div className="text-lg leading-relaxed space-y-6 text-[#4a4642]">
