@@ -96,9 +96,11 @@ export default function Home() {
       </p>
 
       <ul className="list-disc list-outside space-y-3 pl-6">
-        <li>Place your device at a comfortable distance</li>
+        <li>Tune the violin before the session begins</li>
         <li>Ensure good lighting in the room</li>
+        <li>Join from a laptop/computer (avoid phones) </li>
         <li>Have enough space to play freely</li>
+        <li>Ensure your camera captures full upper body & both arms</li>
       </ul>
           </div>
         </div>
