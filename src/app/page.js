@@ -78,7 +78,7 @@ export default function Home() {
       <section className="py-20 px-6 bg-[#f8f6f2]">
   <div className="max-w-4xl mx-auto">
     <h2 className="text-3xl font-serif mb-10 text-center">
-      How My Online Lessons Work
+      Online Lessons Information
     </h2>
 
     <div className="text-lg leading-relaxed space-y-6 text-[#4a4642]">
