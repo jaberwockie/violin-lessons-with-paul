@@ -28,13 +28,11 @@ export default function Home() {
     </h2>
 
     <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
-      My lessons are for teens and adults who are passionate about music and feel drawn to the violin. Ideally, you would recognize that learning this instrument is a serious commitment and would involve regular practise at home.
+      My lessons are for teens and adults who are passionate about music and feel drawn to the violin. Ideally, you would recognize that the violin can be a serious commitment and requires regular practise at home. Thus, people who can set aside a 
+      minimum of 30 minutes/day would see best results.
     </p>
-      <p className="text-lg text-[#4a4642] mb-8 max-w-2xl mx-auto">
-      This is why I generally avoid teaching younger children. Many parents often force kids into lessons and it rarely works out in the long run.
-      
-    </p> <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
-      My lessons will suit you well if you are either:
+      <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
+      My lessons will suit you if you are either:
     </p>
 
  
@@ -64,7 +62,7 @@ export default function Home() {
       <li>Proper bowing and posture technique</li>
       <li>Music reading and theory fundamentals</li>
       <li>Western classical repertoire</li>
-      <li>Pop and contemporary adaptations</li>
+      <li>Western contemporary music</li>
       <li>Structured practice habits</li>
     </ul>
 
@@ -85,7 +83,7 @@ export default function Home() {
       <p>
         Lessons are 45 minutes long and conducted via Google Meet. Once you contact me
         and we decide on a mutually convenient time for lessons, I will share a Google
-        Meet link with you. You can bookmark and visit this link for every lesson.
+        Meet link with you. You can bookmark and visit this link for each lesson.
         For convenience, payments are made in advance, either per session or for a set
         of four.
       </p>
@@ -98,9 +96,9 @@ export default function Home() {
       <ul className="list-disc list-outside space-y-3 pl-6">
         <li>Tune the violin before the session begins</li>
         <li>Ensure good lighting in the room</li>
-        <li>Join from a laptop/computer (avoid phones) </li>
+        <li>Avoid joining through a phone (a laptop/large tablet/computer is preferred) </li>
         <li>Have enough space to play freely</li>
-        <li>Ensure your camera captures full upper body & both arms</li>
+        <li>Ensure your camera captures full upper body & arms</li>
       </ul>
           </div>
         </div>
@@ -120,17 +118,17 @@ export default function Home() {
 
     <div>
       <h2 className="text-3xl font-serif mb-6">
-        A little about myself.
+        About Me
       </h2>
 
       <div className="text-lg leading-relaxed space-y-6 text-gray-700">
 
         <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
-          Greetings, future violinist!
+          Greetings, future violinist,
         </p>
 
         <p>
-          My name is Paul Lazarus, and I've been playing the violin for over 14 years as of 2026.
+          My name is Paul Lazarus, and I've been playing the violin for over 14 years now.
         </p>
 
         <p>
@@ -150,7 +148,7 @@ export default function Home() {
         </p>
 
         <p>
-          I’ve performed at private events, weddings, and charity concerts, but what motivates me the most is planting new strings. For me, watching students move from one breakthrough to another is incredibly fulfilling.
+          I’ve performed at private events, weddings, and charity concerts, but what motivates me the most is planting new strings. For me, watching students improve and move from one breakthrough to another is incredibly fulfilling.
         </p>
 
       </div>
@@ -164,7 +162,7 @@ export default function Home() {
   <div className="max-w-6xl mx-auto text-center">
 
     <h2 className="text-3xl font-serif mb-12">
-      What Students and Customers Say
+      What Students and Clients Say
     </h2>
 
     <div className="grid md:grid-cols-3 gap-12">
