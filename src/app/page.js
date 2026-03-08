@@ -124,7 +124,7 @@ export default function Home() {
       <div className="text-lg leading-relaxed space-y-6 text-gray-700">
 
         <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
-          Greetings, future violinist,
+          Greetings! future violinist,
         </p>
 
         <p>
