@@ -51,7 +51,7 @@ As you can see, achieving good intonation is not a simple goal and is never a on
 ## How do you Practice Scales Properly?
 ![Violin fingers](/carlflesch.jpg)
 
-Once you find a suitable scale routine like Carl Flesch (*Note the gentleman with the John Lennon glasses above*) or something by Ivan Galamian. Regardless of what scale routine you use, it should involve:
+First, find a suitable scale routine like Carl Flesch (*Note the gentleman with the John Lennon glasses above*) or something by Ivan Galamian. Regardless of what scale routine you use, it should involve:
 
 1. Having an acceptable base intonation accuracy
 2. Metronome work
