@@ -178,7 +178,18 @@ export default function Home() {
           — Violin Student
         </p>
       </div>
-
+      
+ {/* Review 7 */}
+      <div>
+        <img
+          src="/review7.jpg"
+          alt="Student review"
+          className="rounded-lg shadow-md mx-auto"
+        />
+        <p className="mt-4 text-sm text-gray-600">
+          — Violin Student
+        </p>
+      </div>
       {/* Review 2 */}
       <div>
         <img
@@ -237,6 +248,9 @@ export default function Home() {
           — Composition Client
         </p>
       </div>
+
+     
+
     </div>
 
   </div>
