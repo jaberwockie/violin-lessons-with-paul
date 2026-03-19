@@ -7,6 +7,14 @@
 
 const POSTS = [
 
+{
+  slug: "start-practicing-the-violin-with-your-ears",
+  title: "Start Listening To Great Violinists if You Want To Progress Faster",
+  date: "2025-06-15",
+  excerpt: "It's the biggest secret that's hiding in plain sight.",
+  tag: "Technique",
+},
+
     {
   slug: "why-don't-I-sound-like-the-pros",
   title: "Why Don't You Sound Like A Pro Yet?",
