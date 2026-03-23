@@ -55,7 +55,7 @@ some responses the question received.
 
 ![Violin fingers](/blog2contentimg3.jpg)
 
-Harvey's point on memorable performances being better than perfect ones is so important.   
+Harvey's point on memorable performances being better than perfect ones is something I will second.   
 
 It's like parkour. Imagine if bumping your arm during a jump caused you to stop abruptly and restart your run.  
 "It didn't go perfectly" you say. Yet, true parkour is flowing through obstacles, 
