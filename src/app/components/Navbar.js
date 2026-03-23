@@ -4,24 +4,37 @@ import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const pathname = usePathname();
-  const isArticle = pathname.startsWith("/blog/") && pathname !== "/blog";
+  const isHome = pathname === "/";
+  const isBlog = pathname === "/blog" || pathname.startsWith("/blog/");
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 flex ${isArticle ? "justify-between" : "justify-end"} items-center px-8 py-4 bg-[#fdfaf6] border-b border-[#e8e0d4]`}>
-      <div>
-        {pathname !== "/" && (
-          <a href="/" className="text-sm text-gray-600 hover:text-[#c6a75e] transition">
-            Home
-          </a>
-        )}
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#f8f7f4]/90 backdrop-blur-sm border-b border-black/[0.06]">
+      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+        <a
+          href="/"
+          className="font-serif text-lg text-[#1a1a18] tracking-tight hover:text-[#27b56e] transition-colors"
+        >
+          Paul Lazarus · Violin
+        </a>
+        <nav className="flex items-center gap-6">
+          {!isHome && (
+            <a
+              href="/"
+              className="text-sm text-[#5a5a56] font-sans hover:text-[#1a1a18] transition-colors"
+            >
+              Home
+            </a>
+          )}
+          {!isBlog && (
+            <a
+              href="/blog"
+              className="text-sm text-[#5a5a56] font-sans hover:text-[#1a1a18] transition-colors"
+            >
+              Blog
+            </a>
+          )}
+        </nav>
       </div>
-      <div>
-        {pathname !== "/blog" && (
-          <a href="/blog" className="text-sm text-gray-600 hover:text-[#c6a75e] transition">
-            Blog
-          </a>
-        )}
-      </div>
-    </nav>
+    </header>
   );
 }

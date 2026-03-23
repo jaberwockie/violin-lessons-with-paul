@@ -1,269 +1,216 @@
-
 export default function Home() {
   return (
-    <main className="bg-[#fdfaf6] text-gray-800">
+    <main className="bg-[#f8f7f4] text-[#1a1a18]">
 
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
-        <h1 className="text-5xl md:text-6xl font-serif mb-6 tracking-tight">
-          Violin Lessons With Paul
-        </h1>
-        <p className="text-xl md:text-2xl max-w-2xl mb-8 text-gray-600">
-          Build a strong classical foundation and learn to play the music you love.
+        <p className="text-xs uppercase tracking-widest text-[#28a066] mb-4 font-sans">
+          Online Lessons · Beginners welcome
         </p>
-
+        <h1 className="text-5xl md:text-6xl font-serif mb-6 tracking-tight leading-tight">
+          Learn Violin With<br />Paul Lazarus
+        </h1>
+        <p className="text-lg md:text-xl max-w-xl mb-10 text-[#5a5a56] font-sans leading-relaxed">
+          Classical foundations, contemporary music, and a free first lesson to get you started.
+        </p>
         <a
           href="https://wa.me/919962448276"
-          className="bg-[#c6a75e] text-white px-8 py-3 rounded-md text-lg hover:opacity-90 transition mb-4"
+          className="bg-[#27b56e] text-white px-8 py-3 rounded-lg text-base font-sans font-medium hover:bg-[#22a062] transition-colors"
         >
-          Book Your Trial Lesson Now, Completely Free
+          Book Your Free Trial
         </a>
       </section>
 
-   {/* Who It’s For */}
-<section className="py-20 px-6 bg-white">
-  <div className="max-w-4xl mx-auto text-center">
-    <h2 className="text-3xl font-serif mb-6">
-      Who These Lessons Are For
-    </h2>
+      {/* Who It's For */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-serif mb-4">
+            Is This For You?
+          </h2>
+          <p className="text-base text-[#5a5a56] font-sans mb-10 max-w-xl mx-auto leading-relaxed">
+            My lessons are for teens and adults who are passionate about music. Ideally, for those who can set aside a minimum of 30 minutes a day to practise at home.
+          </p>
 
-    <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
-      My lessons are for teens and adults who are passionate about music and feel drawn to the violin. Ideally, you would recognize that the violin can be a serious commitment and requires regular practise at home. Thus, people who can set aside a 
-      minimum of 30 minutes/day would see best results.
-    </p>
-      <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
-      My lessons will suit you if you are either:
-    </p>
-
- 
-
-    <ul className="text-lg text-left list-disc list-outside space-y-4 text-[#4a4642] max-w-2xl mx-auto">
-      <li>A complete beginner</li>
-      <li>Have a few years of experience</li>
-      <li>Are switching from Carnatic/Hindustani to Western Classical/Western Contemporary</li>
-      <li>Need more structure in your violin journey</li>
-    </ul>
-
-  </div>
-</section>
-
-   {/* What You’ll Learn */}
-<section className="py-20 px-6 bg-[#f7f3ed]">
-  <div className="max-w-4xl mx-auto text-center">
-    <h2 className="text-3xl font-serif mb-6">
-      What You’ll Learn
-    </h2>
-
-    <p className="text-lg text-[#4a4642] mb-8">
-      Each student gets a customized progression plan according to their goals, but here are some universal elements:
-    </p>
-
-    <ul className="text-lg text-left list-disc list-inside space-y-4 text-[#4a4642] max-w-2xl mx-auto">
-      <li>Proper bowing and posture technique</li>
-      <li>Music reading and theory fundamentals</li>
-      <li>Western classical repertoire</li>
-      <li>Western contemporary music</li>
-      <li>Structured practice habits</li>
-    </ul>
-
-    
-
-  </div>
-</section>
-
-      {/* Online Setup */}
-      <section className="py-20 px-6 bg-[#f8f6f2]">
-  <div className="max-w-4xl mx-auto">
-    <h2 className="text-3xl font-serif mb-10 text-center">
-      Online Lessons Information
-    </h2>
-
-    <div className="text-lg leading-relaxed space-y-6 text-[#4a4642]">
-      
-      <p>
-        Lessons are 45 minutes long and conducted via Google Meet. Once you contact me
-        and we decide on a mutually convenient time for lessons, I will share a Google
-        Meet link with you. You can bookmark and visit this link for each lesson.
-        For convenience, payments are made in advance, either per session or for a set
-        of four.
-      </p>
-
-      <p>
-        Virtual lessons do have some practical limitations, so it would be best if you
-        could:
-      </p>
-
-      <ul className="list-disc list-outside space-y-3 pl-6">
-        <li>Tune the violin before the session begins</li>
-        <li>Ensure good lighting in the room</li>
-        <li>Avoid joining through a phone (a laptop/large tablet/computer is preferred) </li>
-        <li>Have enough space to play freely</li>
-        <li>Ensure your camera captures full upper body & arms</li>
-      </ul>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
+            {[
+              { title: "Complete beginner?", desc: "Perfect, we'll start from scratch." },
+              { title: "Have some experience?", desc: "We'll build on what you know." },
+              { title: "Carnatic/Hindustani → Western?", desc: "Made successful transitions with many students." },
+              { title: "Need structure?", desc: "You'll have a clear progression plan." },
+            ].map(({ title, desc }) => (
+              <div
+                key={title}
+                className="bg-[#e2f5ed] border border-[#b0dfc6] rounded-xl p-4 text-left"
+              >
+                <p className="text-sm font-medium text-[#185c3a] mb-1 font-sans">{title}</p>
+                <p className="text-xs text-[#2d7a52] font-sans leading-relaxed">{desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-     {/* About Section */}
-<section className="py-24 px-6 bg-[#f7f3ed]">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+      {/* What You'll Learn */}
+      <section className="py-20 px-6 bg-[#f8f7f4]">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-serif mb-4">
+            What You'll Learn
+          </h2>
+          <p className="text-base text-[#5a5a56] font-sans mb-10 max-w-xl mx-auto leading-relaxed">
+            Each student gets a customised progression plan, but here are the universal elements every lesson includes.
+          </p>
 
-    <div className="flex justify-center">
-      <img
-        src="/paul.jpg"
-        alt="Paul with violin"
-        className="rounded-2xl shadow-lg w-full max-w-md object-cover"
-      />
-    </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto text-left">
+            {[
+              "Proper bowing and posture technique",
+              "Music reading and theory fundamentals",
+              "Western classical repertoire",
+              "Western contemporary music",
+              "Structured practice habits",
+            ].map((item) => (
+              <div key={item} className="flex items-center gap-3 font-sans text-[#1a1a18]">
+                <div className="w-2 h-2 rounded-full bg-[#27b56e] flex-shrink-0" />
+                <span className="text-base">{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-    <div>
-      <h2 className="text-3xl font-serif mb-6">
-        About Me
-      </h2>
+      {/* Online Setup */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-serif mb-4 text-center">
+            Online Lessons
+          </h2>
+          <p className="text-base text-[#5a5a56] font-sans text-center mb-10 leading-relaxed">
+            Lessons are 45 minutes long and conducted via Google Meet. Once we agree on a time, I'll share a link you can bookmark for every session. Payments are made in advance, either per session or in a set of four.
+          </p>
 
-      <div className="text-lg leading-relaxed space-y-6 text-gray-700">
+          <div className="bg-[#f8f7f4] border border-[#deded8] rounded-2xl p-6 md:p-8">
+            <p className="text-sm font-medium text-[#3a3a38] font-sans mb-4">
+              For the best experience, please:
+            </p>
+            <div className="flex flex-col gap-3">
+              {[
+                "Tune your violin before the session begins",
+                "Ensure good lighting in the room",
+                "Join from a laptop, large-screen tablet, or computer.",
+                "Have enough space to play freely.",
+                "Position your camera to capture your upper body and arms.",
+              ].map((item) => (
+                <div key={item} className="flex items-start gap-3 font-sans text-[#1a1a18]">
+                  <div className="w-2 h-2 rounded-full bg-[#27b56e] flex-shrink-0 mt-[7px]" />
+                  <span className="text-base leading-relaxed">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
-          Greetings! future violinist,
-        </p>
+      {/* About Section */}
+      <section className="py-24 px-6 bg-[#f8f7f4]">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+          <div className="flex justify-center">
+            <img
+              src="/paul.jpg"
+              alt="Paul with violin"
+              className="rounded-2xl w-full max-w-md object-cover"
+            />
+          </div>
 
-        <p>
-          My name is Paul Lazarus, and I've been playing the violin for over 14 years now.
-        </p>
+          <div>
+            <h2 className="text-3xl font-serif mb-6">
+              About Me
+            </h2>
+            <div className="font-sans text-base leading-relaxed space-y-5 text-[#3a3a38]">
+              <p className="text-[#27b56e] font-medium">Greetings, future violinist!</p>
+              <p>
+                My name is Paul Lazarus, and I've been playing the violin for over 14 years.
+              </p>
+              <p>
+                During this journey I've had the honour of studying under many experienced violinists, most notably the respected pedagogue{" "}
+                <a
+                  href="https://www.youtube.com/@JoyLeeViolin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#27b56e] underline underline-offset-2 hover:text-[#185c3a] transition-colors"
+                >
+                  Joy Lee
+                </a>.
+              </p>
+              <p>
+                Although I have a master's degree in psychology and worked in mental health, my love for the violin eventually led me to switch careers. Today I am a full-time violinist, freelance composer, and writer.
+              </p>
+              <p>
+                I've performed at private events, weddings, and charity concerts — but what motivates me most is watching students move from one breakthrough to the next.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <p>
-          During this journey, I’ve had the honour of studying under many experienced violinists, most notably the respected pedagogue{" "}
+      {/* Testimonials */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl font-serif mb-12">
+            What Students and Clients Say
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              { src: "/review1.jpg", label: "Violin Student" },
+              { src: "/review7.jpg", label: "Violin Student" },
+              { src: "/review8.jpg", label: "Violin Student" },
+              { src: "/review2.jpg", label: "Composition Client" },
+              { src: "/review3.jpg", label: "Composition Client" },
+              { src: "/review4.jpg", label: "Composition Client" },
+              { src: "/review5.jpg", label: "Composition Client" },
+              { src: "/review6.jpg", label: "Composition Client" },
+            ].map(({ src, label }) => (
+              <div key={src}>
+                <img
+                  src={src}
+                  alt={`Review from ${label}`}
+                  className="rounded-xl w-full object-cover"
+                />
+                <p className="mt-3 text-sm text-[#888884] font-sans">— {label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Banner */}
+      <section className="py-20 px-6 bg-[#27b56e]">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-serif text-white mb-4">
+            Ready to start?
+          </h2>
+          <p className="text-white/80 font-sans text-lg mb-8">
+            Your first lesson is completely free. No commitment required.
+          </p>
           <a
-            href="https://www.youtube.com/@JoyLeeViolin"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#c6a75e] underline hover:opacity-80"
+            href="https://wa.me/919962448276"
+            className="inline-block bg-white text-[#185c3a] px-8 py-3 rounded-lg font-sans font-medium text-base hover:bg-[#e2f5ed] transition-colors"
           >
-            Joy Lee
-          </a>.
-        </p>
-
-        <p>
-          Although I have a master's degree in psychology and worked in mental health, my love for the violin and music eventually led me to switch careers. Today, I am a full-time violinist, freelance composer, and writer.
-        </p>
-
-        <p>
-          I’ve performed at private events, weddings, and charity concerts, but what motivates me the most is planting new strings. For me, watching students improve and move from one breakthrough to another is incredibly fulfilling.
-        </p>
-
-      </div>
-    </div>
-
-  </div>
-</section>
-
-{/* Testimonials */}
-<section className="py-20 px-6 bg-white">
-  <div className="max-w-6xl mx-auto text-center">
-
-    <h2 className="text-3xl font-serif mb-12">
-      What Students and Clients Say
-    </h2>
-
-    <div className="grid md:grid-cols-3 gap-12">
-
-      {/* Review 1 */}
-      <div>
-        <img
-          src="/review1.jpg"
-          alt="Student review"
-          className="rounded-lg shadow-md mx-auto"
-        />
-        <p className="mt-4 text-sm text-gray-600">
-          — Violin Student
-        </p>
-      </div>
-      
- {/* Review 7 */}
-      <div>
-        <img
-          src="/review7.jpg"
-          alt="Student review"
-          className="rounded-lg shadow-md mx-auto"
-        />
-        <p className="mt-4 text-sm text-gray-600">
-          — Violin Student
-        </p>
-      </div>
-      {/* Review 2 */}
-      <div>
-        <img
-          src="/review2.jpg"
-          alt="Student review"
-          className="rounded-lg shadow-md mx-auto"
-        />
-        <p className="mt-4 text-sm text-gray-600">
-          — Composition Client 
-        </p>
-      </div>
-
-      {/* Review 3 */}
-      <div>
-        <img
-          src="/review3.jpg"
-          alt="Student review"
-          className="rounded-lg shadow-md mx-auto"
-        />
-        <p className="mt-4 text-sm text-gray-600">
-          — Composition Client
-        </p>
-      </div>
- {/* Review 4 */}
-      <div>
-        <img
-          src="/review4.jpg"
-          alt="Student review"
-          className="rounded-lg shadow-md mx-auto"
-        />
-        <p className="mt-4 text-sm text-gray-600">
-          — Composition Client
-        </p>
-      </div>
-
-      {/* Review 5 */}
-      <div>
-        <img
-          src="/review5.jpg"
-          alt="Student review"
-          className="rounded-lg shadow-md mx-auto"
-        />
-        <p className="mt-4 text-sm text-gray-600">
-          — Composition Client
-        </p>
-      </div>
-
-      {/* Review 6 */}
-      <div>
-        <img
-          src="/review6.jpg"
-          alt="Student review"
-          className="rounded-lg shadow-md mx-auto"
-        />
-        <p className="mt-4 text-sm text-gray-600">
-          — Composition Client
-        </p>
-      </div>
-
-     
-
-    </div>
-
-  </div>
-</section>
+            Book Your Free Trial
+          </a>
+        </div>
+      </section>
 
       {/* Support */}
-      <section className="py-20 px-6 bg-white text-center">
-        <h2 className="text-3xl font-serif mb-6">
-          Support
-        </h2>
-        <p className="text-lg mb-8">
-          Need more information or have other questions? Send me an email at
-          contact@paullazarusviolin.com
+      <section className="py-16 px-6 bg-[#f8f7f4] text-center">
+        <h2 className="text-2xl font-serif mb-4">Questions?</h2>
+        <p className="text-base font-sans text-[#5a5a56]">
+          Send an email to{" "}
+          <a
+            href="mailto:contact@paullazarusviolin.com"
+            className="text-[#27b56e] underline underline-offset-2 hover:text-[#185c3a] transition-colors"
+          >
+            contact@paullazarusviolin.com
+          </a>
         </p>
       </section>
 

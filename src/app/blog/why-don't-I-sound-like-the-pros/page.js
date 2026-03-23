@@ -80,55 +80,79 @@ function formatDate(dateStr) {
 
 export default function BlogPost() {
   return (
-    <main className="bg-[#fdfaf6] text-gray-800 min-h-screen">
+    <main className="bg-[#f8f7f4] text-[#1a1a18] min-h-screen">
 
-      <section className="pt-24 pb-12 px-6 text-center border-b border-[#e8e0d4]">
+      <section className="pt-24 pb-12 px-6 text-center border-b border-[#deded8]">
         <div className="max-w-2xl mx-auto">
           <div className="flex items-center justify-center gap-3 mb-5">
-            <span className="text-xs uppercase tracking-widest text-[#c6a75e] font-medium">
+            <span className="text-xs uppercase tracking-widest text-[#27b56e] font-medium font-sans">
               {post.tag}
             </span>
-            <span className="text-gray-300">·</span>
-            <time className="text-sm text-gray-400">{formatDate(post.date)}</time>
+            <span className="text-[#deded8]">·</span>
+            <time className="text-sm text-[#888884] font-sans">{formatDate(post.date)}</time>
           </div>
           <h1 className="text-4xl md:text-5xl font-serif leading-tight mb-6">
             {post.title}
           </h1>
-          <p className="text-lg text-gray-500">{post.excerpt}</p>
+          <p className="text-lg text-[#5a5a56] font-sans">{post.excerpt}</p>
         </div>
       </section>
-   <img
-  src="/blog1headerimg.jpg"
-  alt="Violin practice"
-  className="w-full object-cover"
-/>
+
+      <img
+        src="/blog1headerimg.jpg"
+        alt="Violin practice"
+        className="w-full object-cover"
+      />
+
       <article className="py-16 px-6">
-        <div className="max-w-2xl mx-auto text-lg leading-relaxed text-[#4a4642] space-y-6 prose">
+        <div className="max-w-2xl mx-auto text-lg leading-relaxed text-[#3a3a38] space-y-6 prose">
           <ReactMarkdown
-  components={{
-    img: ({node, ...props}) => <img style={{width: "100%", borderRadius: "0.5rem", marginTop: "1.5rem", marginBottom: "1.5rem"}} {...props} />,
-    h2: ({node, ...props}) => <h2 style={{fontFamily: "var(--font-serif)", fontSize: "1.5rem", fontWeight: "600", color: "#1a1a1a", marginTop: "2rem", marginBottom: "0.75rem"}} {...props} />,
-    h3: ({node, ...props}) => <h3 style={{fontFamily: "var(--font-serif)", fontSize: "1.25rem", fontWeight: "600", color: "#1a1a1a", marginTop: "1.5rem", marginBottom: "0.5rem"}} {...props} />,
-    p: ({node, ...props}) => <p style={{marginBottom: "1.25rem"}} {...props} />,
-    strong: ({node, ...props}) => <strong style={{fontWeight: "700", color: "#1a1a1a"}} {...props} />,
-    ul: ({node, ...props}) => <ul style={{listStyleType: "disc", paddingLeft: "1.5rem", marginBottom: "1.25rem"}} {...props} />,
-li: ({node, ...props}) => <li style={{marginBottom: "0.5rem"}} {...props} />,
-ol: ({node, ...props}) => <ol style={{listStyleType: "decimal", paddingLeft: "1.5rem", marginBottom: "1.25rem"}} {...props} />,
-  }}
->
-  {post.content}
-</ReactMarkdown>
+            components={{
+              img: ({node, ...props}) => (
+                <img style={{width: "100%", borderRadius: "0.75rem", marginTop: "1.5rem", marginBottom: "1.5rem"}} {...props} />
+              ),
+              h2: ({node, ...props}) => (
+                <h2 style={{fontFamily: "var(--font-serif)", fontSize: "1.5rem", fontWeight: "600", color: "#1a1a18", marginTop: "2rem", marginBottom: "0.75rem"}} {...props} />
+              ),
+              h3: ({node, ...props}) => (
+                <h3 style={{fontFamily: "var(--font-serif)", fontSize: "1.25rem", fontWeight: "600", color: "#1a1a18", marginTop: "1.5rem", marginBottom: "0.5rem"}} {...props} />
+              ),
+              p: ({node, ...props}) => (
+                <p style={{marginBottom: "1.25rem", fontFamily: "var(--font-sans)"}} {...props} />
+              ),
+              strong: ({node, ...props}) => (
+                <strong style={{fontWeight: "700", color: "#1a1a18"}} {...props} />
+              ),
+              ul: ({node, ...props}) => (
+                <ul style={{listStyleType: "disc", paddingLeft: "1.5rem", marginBottom: "1.25rem", fontFamily: "var(--font-sans)"}} {...props} />
+              ),
+              li: ({node, ...props}) => (
+                <li style={{marginBottom: "0.5rem"}} {...props} />
+              ),
+              ol: ({node, ...props}) => (
+                <ol style={{listStyleType: "decimal", paddingLeft: "1.5rem", marginBottom: "1.25rem", fontFamily: "var(--font-sans)"}} {...props} />
+              ),
+            }}
+          >
+            {post.content}
+          </ReactMarkdown>
         </div>
       </article>
 
-      <section className="py-12 px-6 border-t border-[#e8e0d4] text-center">
-        <a href="/blog" className="text-sm text-[#c6a75e] underline underline-offset-4 hover:opacity-70 transition block mb-10">
-          Back to all articles
+      <section className="py-12 px-6 border-t border-[#deded8] text-center">
+        <a
+          href="/blog"
+          className="text-sm text-[#27b56e] underline underline-offset-4 hover:text-[#185c3a] transition-colors font-sans block mb-10"
+        >
+          ← Back to all articles
         </a>
-        <p className="text-lg text-[#4a4642] mb-6 max-w-lg mx-auto">
+        <p className="text-lg text-[#5a5a56] mb-6 max-w-lg mx-auto font-sans leading-relaxed">
           Want to work on these ideas with guidance? Book a free trial lesson.
         </p>
-        <a href="https://wa.me/919962448276" className="bg-[#c6a75e] text-white px-8 py-3 rounded-md text-lg hover:opacity-90 transition">
+        <a
+          href="https://wa.me/919962448276"
+          className="bg-[#27b56e] text-white px-8 py-3 rounded-lg text-base font-sans font-medium hover:bg-[#22a062] transition-colors"
+        >
           Book a Free Trial Lesson
         </a>
       </section>

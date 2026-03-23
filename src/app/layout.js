@@ -1,14 +1,14 @@
 import "./globals.css";
-import { Playfair_Display, Inter } from "next/font/google";
-import Navbar from "./components/Navbar";
+import { Playfair_Display, DM_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import Navbar from "./components/Navbar";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-serif",
 });
 
-const inter = Inter({
+const dmSans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${inter.variable} font-sans`}>
+      <body className={`${playfair.variable} ${dmSans.variable} font-sans`}>
         <Navbar />
         <div className="pt-16">
           {children}
