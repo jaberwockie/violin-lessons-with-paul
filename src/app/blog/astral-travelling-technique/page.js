@@ -84,7 +84,7 @@ export default function BlogPost() {
       </section>
 
       <img
-        src="astral.png"
+        src="/astral.png"
         alt="Astral Practice Illustration"
         className="w-full object-cover"
       />
