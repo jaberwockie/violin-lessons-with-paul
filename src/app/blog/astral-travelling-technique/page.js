@@ -3,10 +3,10 @@
 import ReactMarkdown from "react-markdown";
 
 const post = {
-  title: "Sample Title",
+  title: "Start Astral Travelling for Better Musical Perception",
   date: "2025-06-15",
   tag: "Technique",
-  excerpt: "Sample Subheading.",
+  excerpt: "An interesting way to hear yourself",
   content: `
 
 When it comes to finding your sound, pedagogues tend to have different approaches. The most popular one involves becoming one with the sound. This touches on the common theme of "losing oneself to the music" or seeking and finding the "flow state."
