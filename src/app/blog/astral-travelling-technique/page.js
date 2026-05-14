@@ -11,7 +11,7 @@ const post = {
 
 When it comes to finding your sound, pedagogues tend to have different approaches. The most popular one involves becoming one with the sound. This touches on the common theme of "losing oneself to the music" or seeking and finding the "flow state."
 
-While this is true, it isn't as practical an approach for those still finding their sound. Today, I want to tell you about one solution I came up with that had interesting results. 
+While this is helpful, it isn't as practical an approach for those still finding their sound. Today, I wish to share a rather unusual technique I discovered that had some interesting results. 
 
 This solution, is astral travelling. 
 
@@ -84,8 +84,8 @@ export default function BlogPost() {
       </section>
 
       <img
-        src="/SAMPLEHEADERIMAGE.jpg"
-        alt="Violin practice"
+        src="astral.png"
+        alt="Astral Practice Illustration"
         className="w-full object-cover"
       />
 
