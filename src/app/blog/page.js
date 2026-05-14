@@ -7,6 +7,14 @@
 
 const POSTS = [
 
+  {
+  slug: "astral-travelling-technique",
+  title: "Start Astral Travelling for Better Musical Perception",
+  date: "2025-06-15",
+  excerpt: "It's the biggest secret that's hiding in plain sight.",
+  tag: "Technique",
+},
+
 {
   slug: "start-practicing-the-violin-with-your-ears",
   title: "Start Listening To Great Violinists if You Want To Progress Faster",
