@@ -19,19 +19,27 @@ Well, not really in the true sense of the word, but an imaginative version, none
 
 Say the following words aloud: "This is my voice and I speak with it."
 
-Listen to how it sounds and your impression of it. Now take out your phone, open a recorder app and record yourself saying the same line. 
+Now, record yourself saying that same phrase with your phone.
 
-When you listen to this recording, you will always notice a gap between what you thought you produced and what was produced in reality. 
+When you listen back to it, you will notice a gap between what you think you sound like versus what you actually do. 
 
-This is naturally why many violinists find themselves cringing hard at how they sound in recordings. Despite the violin not being a part of our physical body, it makes physical contact with our skull via the left side of your jaw. 
+This is also why many violinists find themselves cringing hard at how they sound in recordings. Despite the violin not being a part of our physical body, it makes physical contact with your skull via the left side of your jaw. 
 
-As such, your perception of how it sounds is quite similar to your flawed perception of your own voice as we touched on above. 
+As such, your perception of how you play is quite similar to your flawed perception of your own voice. 
 
 The crude solution to this perception lag is to constantly record yourself and aim to iron out the differences. However, it is possible to reach a sort of real-time, biofeedback experience via the concept of astral travelling. 
 
-You aim to disassociate and create two versions of yourself. The first version is your original self, the expresser, the violinist, the performer. The second version is the perceiver, the listener, the audience. 
+## How To Figuratively Astral Travel
 
-With some practice, both versions can exist in real time and the benefits to be unlocked are significant, in my experience.
+Your aim is to disassociate and create two versions of yourself that you experience simultaneously. The first version is your original self, the expresser, the violinist, the performer. The second version is the perceiver, the listener, the audience. 
+
+Visualize yourself seated in front of you, watching and listening to your performance. For some people, it can be tough to create this visualization. If you have difficulty with this, you opt for the easier version of an audio-only perception.
+
+The most important requirement is that both versions of yourself need to exist in real time.
+
+Start with playing the Open A string and switch places so that you are listening to it as your projected self. 
+
+Next, try a simple scale and then a simple piece. You will realize that your perception of your sound is far more accurate to reality now.  The benefits to be unlocked are significant, in my experience.
 
 These include:
 
@@ -39,10 +47,9 @@ These include:
 2. A new awareness of several maladaptive habits and choices and how they inhibit your ideal sound.
 3. A better understanding of how to convey emotions which can drastically improve your phrasing. 
 
-As someone who worked in mental health and has a background in psychology, this experience could also be described as *Musical Advanced Empathy*. Except, you are the sole target of this empathy and not another person. 
+The only challenge to this method comes with tricky pieces where the mind has to concentrate on performing that the perceiver projection becomes tough. As someone who worked in mental health, this entire experience is best described as *Musical Advanced Empathy*. Except, you are the sole target of this empathy and not another person. 
 
-When done right, it feels like you have temporarily transformed into a four-dimensional being and can finally perceive and adjust your sound with pinpoint accuracy. 
-
+When done right, it feels like you have temporarily transformed into a four-dimensional being and can finally perceive and finetune your sound with pinpoint accuracy. 
 
 
 
