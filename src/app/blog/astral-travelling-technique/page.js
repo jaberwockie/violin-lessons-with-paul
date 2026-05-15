@@ -39,9 +39,7 @@ The most important requirement is that both versions of yourself need to exist i
 
 Start with playing the Open A string and switch places so that you are listening to it as your projected self. 
 
-Next, try a simple scale and then a simple piece. You will realize that your perception of your sound is far more accurate to reality now.  The benefits to be unlocked are significant, in my experience.
-
-These include:
+Next, try a simple scale and then a simple piece. You will realize that your perception of your sound is far more accurate to reality now.  The benefits to be unlocked are significant and include
 
 1. A completely new perception of your sound. You hear the warmth of your tone or its lack, the lack of confidence in tricky passages, the presence or absence of resonance, or minor rhythmic issues that you never noticed before.
 2. A new awareness of several maladaptive habits and choices and how they inhibit your ideal sound.
