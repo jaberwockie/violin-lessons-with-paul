@@ -11,7 +11,7 @@ const POSTS = [
   slug: "astral-travelling-technique",
   title: "Start Astral Travelling for Better Musical Perception",
   date: "2025-06-15",
-  excerpt: "It's the biggest secret that's hiding in plain sight.",
+  excerpt: "This is a woo-woo-free insight.",
   tag: "Technique",
 },
 
