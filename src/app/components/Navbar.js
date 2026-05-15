@@ -30,7 +30,7 @@ export default function Navbar() {
               href="/blog"
               className="text-sm text-[#5a5a56] font-sans hover:text-[#1a1a18] transition-colors"
             >
-              Blog
+               Insights, Techniques, and Tips for Improvement
             </a>
           )}
         </nav>
