@@ -124,27 +124,34 @@ export default function Home() {
             <h2 className="text-3xl font-serif mb-6">
               About Me
             </h2>
-            <div className="font-sans text-base leading-relaxed space-y-5 text-[#3a3a38]">
-              <p className="text-[#27b56e] font-medium">Greetings, future violinist!</p>
-              <p>
-                My name is Paul Lazarus, and I've been playing the violin for over 14 years.
-              </p>
-              <p>
-                During this journey I've had the honour of studying under many experienced violinists, most notably the respected pedagogue{" "}
-                <a
-                  href="https://www.youtube.com/@JoyLeeViolin"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#27b56e] underline underline-offset-2 hover:text-[#185c3a] transition-colors"
-                >
-                  Joy Lee
-                </a>.
-              </p>
-              <p>
-                Although I have a master's degree in psychology and worked in mental health, my love for the violin eventually led me to switch careers. Today I am a full-time violinist, freelance composer, and writer.
-              </p>
-              <p>
-                I've performed at private events, weddings, and charity concerts — but what motivates me most is watching students move from one breakthrough to the next.
+            <div className="text-lg leading-relaxed space-y-6 text-gray-700">
+
+        <p className="text-lg text-[#4a4642] mb-6 max-w-2xl mx-auto">
+          Greetings! future violinist,
+        </p>
+
+        <p>
+          My name is Paul Lazarus, and I've been playing the violin for over 14 years now.
+        </p>
+
+        <p>
+          During this journey, I’ve had the honour of studying under many experienced violinists, most notably the respected pedagogue{" "}
+          <a
+            href="https://www.youtube.com/@JoyLeeViolin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#c6a75e] underline hover:opacity-80"
+          >
+            Joy Lee
+          </a>.
+        </p>
+
+        <p>
+          Although I have a master's degree in psychology and worked in mental health, my love for the violin and music eventually led me to switch careers. Today, I am a full-time violinist, freelance composer, and writer.
+        </p>
+
+        <p>
+          I’ve performed at private events, weddings, and charity concerts, but what motivates me the most is planting new strings. For me, watching students improve and move from one breakthrough to another is incredibly fulfilling.
               </p>
             </div>
           </div>
